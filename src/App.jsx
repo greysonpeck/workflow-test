@@ -32,24 +32,24 @@ export default function App() {
               </select>
               <svg
                 className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M4 6L8 10L12 6" stroke="#3f3f46" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M6 9L12 15L18 9" stroke="#3f3f46" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
           </InputField>
         </div>
 
-        <div className="flex gap-3">
-          <button className="bg-[#1d2f5d] text-white border border-[#333] rounded px-4 py-2 text-base min-w-[120px] cursor-pointer">
+        <div className="flex gap-3 py-5">
+          <button className="bg-[#af0075] text-white border border-[#af0075] rounded px-4 py-2 text-base min-w-[120px] cursor-pointer uppercase">
             Continue
           </button>
-          <button className="bg-white text-[#1d2f5d] border border-[#1d2f5d] rounded px-4 py-2 text-base min-w-[120px] cursor-pointer">
-            Secondary
+          <button className="bg-white text-[#af0075] border border-[#af0075] rounded px-4 py-2 text-base min-w-[120px] cursor-pointer uppercase">
+            Continue
           </button>
         </div>
       </div>
